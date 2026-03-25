@@ -36,10 +36,12 @@ Employee table:
 | 105 | Anne  | A          | 101       |
 | 106 | Ron   | B          | 101       |
 +-----+-------+------------+-----------+
-SQL
-select distinct e.name from employee e 
- join employee er on 
-e.id=er.managerId   having count(er.id)>=5;
+
+select  e.name from employee e 
+ inner join employee er on 
+e.id=er.managerId  
+Group by er.managerid  having count(e.id)>=5;
+
 
 Output: 
 +------+
