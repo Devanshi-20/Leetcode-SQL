@@ -2,7 +2,7 @@
 
 This repository captures my hands-on learning and practice with SQL from LeetCode, focusing on real-world problem solving and data analysis scenarios.
 
-
+https://leetcode.com/studyplan/top-sql-50/
 
 ## 🚀 Key Concepts Learned
 
